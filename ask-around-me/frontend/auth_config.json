@@ -1,5 +1,5 @@
 {
-  "domain": "dev-8zpclhc5jpiy2wfb.us.auth0.com",
-  "clientId": "ponV6sNT64xESkqwhLGUjV0fQfc17iHU",
+  "domain": "enter your domain from Auth0 application",
+  "clientId": "enter your clientID",
   "audience": "https://auth0-jwt-authorizer"
 }
