@@ -1,0 +1,11 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "askAroundMe-backend"
+resolve_s3 = true
+s3_prefix = "askAroundMe-backend"
+region = "us-west-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+image_repositories = []
+parameter_overrides = "QuestionsTableName=\"aamQuestions\" QuestionsTableStreamARN=\"arn:aws:dynamodb:us-west-1:211125774743:table/aamQuestions/stream/2024-03-20T10:35:10.062\" AnswersTableName=\"aamAnswers\" IoTDataEndpoint=\"a3m9yi5sakrf7g-ats.iot.us-west-1.amazonaws.com\" Auth0issuer=\"https://dev-8zpclhc5jpiy2wfb.us.auth0.com\""
